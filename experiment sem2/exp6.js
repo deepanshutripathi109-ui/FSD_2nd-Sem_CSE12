@@ -17,7 +17,7 @@ document.getElementById("bgColorBtn").onclick = function () {
        
 };
 
-//increase font size
+//increase font size 
 document.getElementById("fontSizeBtn").addEventListener("click", function () {
     fontSize += 2;
     paragraph.style.fontSize = fontSize + "px";
