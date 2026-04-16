@@ -1,0 +1,27 @@
+body{
+    background-color: yellow;
+}
+.box{
+    background-color: skyblue;
+    text-align: center;
+    width: 400px;
+    border: 2px solid black;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-left: 480px;
+    margin-top: 50px;
+}
+#subjects{
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 5px;
+    height: 20px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    height: 35px; 
+}
