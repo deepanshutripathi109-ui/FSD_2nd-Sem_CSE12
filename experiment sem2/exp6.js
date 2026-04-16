@@ -11,7 +11,7 @@ document.getElementById("changeTextBtn").addEventListener("click", function () {
     }
 });
 
-// Change background color
+// change backround color
 document.getElementById("bgColorBtn").onclick = function () {
     document.body.style.backgroundColor ="red";
        
