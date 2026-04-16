@@ -10,10 +10,17 @@ document.getElementById("changeTextBtn").addEventListener("click", function () {
         heading.innerHTML = input.value;
     }
 });
+heading.onmouseover=function(){
+    heading.style.color="red";
+}
+heading.onmouseout=function(){
+    heading.style.color="black";
+}
 
 // change backround color
 document.getElementById("bgColorBtn").onclick = function () {
     document.body.style.backgroundColor ="red";
+    
        
 };
 
@@ -21,7 +28,11 @@ document.getElementById("bgColorBtn").onclick = function () {
 document.getElementById("fontSizeBtn").addEventListener("click", function () {
     fontSize += 2;
     paragraph.style.fontSize = fontSize + "px";
+    
 });
+document.getElementById("fontSizeBtn").addEventListener("click",function(){
+    heading.style.fontSize=40+"px";
+})
 
 // Show/Hide paragraph
 document.getElementById("toggleBtn").addEventListener("click", function () {
