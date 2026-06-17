@@ -1,13 +1,16 @@
+import react from "react"
+import  "./studentCard.css";
+
 function App(){
   return(
-    <div >
-    <h1>Student Registration form</h1>
-    <input type="text" placeholder="Student name" /><br />
-    <input type="text" placeholder="Email" /><br />
-    <input type="text" placeholder="Password" /><br />
-    <input type="text" placeholder="Course" /><br />
-    <input type="text" placeholder="Mobile number" /><br />
-
+    <div class="box">
+    <h2 className="h1">Student Registration form</h2>
+    <input type="text" placeholder="Student name" class="input" /><br />
+    <input type="text" placeholder="Email" class="input" /><br />
+    <input type="password" placeholder="Password" class="input" /><br />
+    <input type="text" placeholder="Course" class="input" /><br />
+    <input type="number" placeholder="Mobile number" class="input" /><br />
+    <button class="button">Register</button>
   </div>
   )
 }
