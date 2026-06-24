@@ -38,7 +38,7 @@ const playGame =(userChoice)=>{
         let userWin=true;
         if(userChoice==="rock"){
             //paper //scissor
-            userWin=compChoice==="paper"?true:false;
+            userWin=compChoice==="scissor"?true:false;
         }else if(userChoice==="paper"){
             //rock // scissor
             userWin=compChoice==="scissor"?false:true;
